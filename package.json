@@ -21,7 +21,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "root": true
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 4
   },
   "browserslist": {
     "production": [
